@@ -1,0 +1,284 @@
+html,
+body,
+div {
+    margin: 0;
+}
+
+@media screen and (max-width:760px) {
+    div.flex-box div#icon {
+        display: block;
+    }
+    div.flex-box div.menu {
+        display: none;
+    }
+    div#whole-page div#contenu div.header {
+        background-image: url(Desktop/image-header.jpg);
+        background-repeat: no-repeat;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+    }
+    div.header div.main-title {
+        font-size: 10px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+}
+
+div#whole-page div#contenu div.header {
+    background-image: url(Desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+div.sunnyside-logo img {
+    padding: 30px;
+    height: 40px;
+    display: inline;
+}
+
+div.sunnyside-logo {
+    display: inline;
+}
+
+div.flex-box div {
+    color: white;
+    font-family: consolas;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+div.flex-box {
+    display: flex;
+    text-align: center;
+    height: 25px;
+}
+
+div#flex-container {
+    display: flex;
+    float: right;
+}
+
+div.flex-box div:hover {
+    cursor: pointer;
+    color: red;
+}
+
+div.header div.main-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+div.icon-arrow-down {
+    width: 97%;
+    align-content: center;
+}
+
+div.icon-arrow-down img {
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 50px;
+}
+
+div.body-center-grid div {
+    border: 2px solid black;
+    height: 500px;
+    border: none;
+}
+
+div.body-center-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+div#icon {
+    display: none;
+}
+
+div.body-center-grid div.grid-items-second-child {
+    background-image: url(Desktop/image-transform.jpg);
+}
+
+div.body-center-grid div.grid-items-third-child {
+    background-image: url(Desktop/image-stand-out.jpg);
+}
+
+div.body-center-grid div.grid-items-fifth-child {
+    background-image: url(Desktop/image-graphic-design.jpg);
+}
+
+div.body-center-grid div.grid-items-sixth-child {
+    background-image: url(image-photography.jpg);
+}
+
+div.body-center-grid div.grid-items-first-child h1 {
+    padding-top: 120px;
+}
+
+div.body-center-grid div.grid-items-first-child h1,
+p,
+h3 {
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+div.body-center-grid div.grid-items-fourth-child h1 {
+    padding-top: 120px;
+}
+
+div.body-center-grid div.grid-items-fourth-child h1,
+p,
+h3 {
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+div.body-center-grid div.grid-items-fifth-child h1 {
+    padding-top: 300px;
+    text-align: center;
+}
+
+div.body-center-grid div.grid-items-fifth-child p,
+div.grid-items-sixth-child p {
+    text-align: center;
+}
+
+div.body-center-grid div.grid-items-sixth-child h1 {
+    padding-top: 300px;
+    text-align: center;
+}
+
+
+/*div.body-center-grid div.grid-items-sixth-child p {
+    text-align: center;
+}*/
+
+div.client-testimonials div.testimonial-title {
+    text-align: center;
+    padding-top: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.image-container div.round-image img {
+    display: inline;
+    width: 70px;
+    border-radius: 50%;
+    padding: 150px;
+}
+
+div.image-container {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+div.image-container div.round-image {
+    padding-bottom: 10px;
+}
+
+div.paragraph-container p.image-container-paragraph {
+    padding-left: 40px;
+    width: 300px;
+    text-align: center;
+}
+
+div.paragraph-container,
+div.client-names,
+div.client-post {
+    display: grid;
+    grid-template-columns: repeat(3, 28%);
+    width: 1300px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.client-names p,
+div.client-post p {
+    padding-left: 40px;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div.client-post p {
+    font-size: 12px;
+    padding-bottom: 100px;
+}
+
+div.last-image-flex-container {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    height: 400px;
+}
+
+div.last-image-flex-container div.flex-items-1 {
+    background-image: url(Desktop/image-gallery-milkbottles.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.last-image-flex-container div.flex-items-2 {
+    background-image: url(Desktop/image-gallery-orange.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.last-image-flex-container div.flex-items-4 {
+    background-image: url(Desktop/image-gallery-sugarcubes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.last-image-flex-container div.flex-items-3 {
+    background-image: url(Desktop/image-gallery-cone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.footer-container {
+    height: 250px;
+    background-color: aquamarine;
+    padding: 60px;
+    color: gray
+}
+
+div.footer-container div.footer-container-title img {
+    height: 40px;
+    padding-left: 42%;
+}
+
+div.footer-container-flex1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 30px;
+}
+
+div.footer-container-flex2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 80px;
+}
+
+div.footer-container-flex1,
+div.footer-container-flex2:hover {
+    cursor: pointer;
+}
