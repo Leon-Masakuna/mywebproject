@@ -161,6 +161,10 @@ div.body-center-grid div.grid-items-sixth-child h1 {
     text-align: center;
 }*/
 
+div.client-testimonials {
+    background-color: aquamarine;
+}
+
 div.client-testimonials div.testimonial-title {
     text-align: center;
     padding-top: 150px;
